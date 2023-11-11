@@ -10,3 +10,6 @@ dataset = pd.read_csv('C:\\Users\\rzava\\OneDrive\\Documentos\\DataSciencePython
 
 # Mostrar los primeros 10 registros
 print(dataset.head(10))
+
+# Esta función muestra los tipos de datos de cada columna
+print(dataset.dtypes)
