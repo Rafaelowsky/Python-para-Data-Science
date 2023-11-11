@@ -16,3 +16,6 @@ print(dataset.dtypes)
 
 # Esta función muestra datos estadisticos de las columnas numericas
 print(dataset[['Kilometraje','Valor']].describe())
+
+# Este método muestra la información del dataset
+print(dataset.info())
