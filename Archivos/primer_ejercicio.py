@@ -1,4 +1,4 @@
-# Este import es para poder usar las funciones de pandas
+# Este import es para poder usar las funciones de pandas y definirla como pd
 import pandas as pd
 
 # Estas dos lineas son para que solamente se muestren 10 filas y 10 columnas
