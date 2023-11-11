@@ -13,3 +13,6 @@ print(dataset.head(10))
 
 # Esta función muestra los tipos de datos de cada columna
 print(dataset.dtypes)
+
+# Esta función muestra datos estadisticos de las columnas numericas
+print(dataset[['Kilometraje','Valor']].describe())
