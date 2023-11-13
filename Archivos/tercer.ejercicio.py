@@ -10,3 +10,15 @@ print(carro1, carro2, carro3, carro4, carro5, carro6, carro7)
 
 for i in nombres_carros:
     print(i)
+
+# Para desempaquetar por iteración con enumerate
+
+for i, carro in enumerate(nombres_carros):
+    print(i, carro)
+    
+# Si se quieren omitir algunos elementos de la tupla se puede hacer de la siguiente forma
+# _ / *_ se ocupa para omitir los elementos que no se quieren desempaquetar
+
+_, A, _, B, *_ = nombres_carros
+
+print(A, B)
