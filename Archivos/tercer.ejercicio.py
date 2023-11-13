@@ -5,3 +5,8 @@ nombres_carros = ("Mazda", "Renault", "Chevrolet", "Susuki", "Kia", "Ferrari", "
 carro1, carro2, carro3, carro4, carro5, carro6, carro7 = nombres_carros
 
 print(carro1, carro2, carro3, carro4, carro5, carro6, carro7)
+
+# Para desempaquetar por iteración}
+
+for i in nombres_carros:
+    print(i)
