@@ -22,3 +22,18 @@ for i, carro in enumerate(nombres_carros):
 _, A, _, B, *_ = nombres_carros
 
 print(A, B)
+
+precio_carros = (100, 200, 300, 400, 500, 600, 700)
+
+# zip() se ocupa para unir dos tuplas
+
+for i in zip(nombres_carros, precio_carros):
+    print(i)
+    
+# Y podemos trabajar con zip e iteraciones al mismo tiempo
+
+for i, j in zip(nombres_carros, precio_carros):
+    if j > 500:
+        print(i, j)
+
+
